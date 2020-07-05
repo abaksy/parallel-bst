@@ -7,7 +7,7 @@ To maintain consistency even when multiple threads are operating on the tree, th
 
 To run: 
 ```
-./run.sh inp1.txt (or inp2.txt or inp3.txt)
+./run.sh tests/inp1.txt (or tests/inp2.txt or tests/inp3.txt)
 ```
 Please ensure that run.sh has executable permissions
 
