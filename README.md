@@ -1,7 +1,14 @@
 # Parallelized Binary Search Tree using CPU threads
+This project aims to implement a Binary Search Tree (BST) data structure using the POSIX thread library for running multiple CPU threads.
+The binary search tree data structure is a type of tree in which all nodes in the left subtree of a particular root node carry a smaller value than that root,
+and all the nodes in the right subtree of that root carry a larger value than that of the root.
+
+To maintain consistency even when multiple threads are operating on the tree, this implementation uses Mutex locks (mutual execution) on each node.
 
 To run: 
+```
 ./run.sh inp1.txt (or inp2.txt or inp3.txt)
+```
 Please ensure that run.sh has executable permissions
 
 The binary search tree consists of a linked list like structure consisting of nodes with pointer links
