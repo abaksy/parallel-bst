@@ -3,7 +3,7 @@ This project aims to implement a Binary Search Tree (BST) data structure using t
 The binary search tree data structure is a type of tree in which all nodes in the left subtree of a particular root node carry a smaller value than that root,
 and all the nodes in the right subtree of that root carry a larger value than that of the root.
 
-To maintain consistency even when multiple threads are operating on the tree, this implementation uses Mutex locks (mutual execution) on each node.
+To maintain consistency even when multiple threads are operating on the tree, this implementation uses Mutex locks (mutual exclusion) on each node.
 
 To run: 
 ```
